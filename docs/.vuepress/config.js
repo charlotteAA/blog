@@ -35,7 +35,7 @@ export default defineUserConfig({
       },
     ],
   }),
-
+  base: '/blog/',
   plugins: [
     blogPlugin({
       // Only files under posts are articles
