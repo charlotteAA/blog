@@ -1,13 +1,13 @@
 ---
 home: true
 title: Home
-heroImage: https://vuejs.press/images/hero.png
+heroImage: https://jssj666.com/prod-api/profile/avatar/2023/11/21/blob_20231121122254A001.png
 actions:
-  - text: Get Started
+  - text: 快速开始
     link: /getting-started.html
     type: primary
 
-  - text: Introduction
+  - text: 介绍
     link: https://vuejs.press/guide/introduction.html
     type: secondary
 
@@ -27,6 +27,9 @@ features:
 
 footer: MIT Licensed | Copyright © 2018-present VuePress Community
 ---
+# **主页配置**
+
+参考：
 
 This is the content of home page. Check [Home Page Docs][default-theme-home] for more details.
 

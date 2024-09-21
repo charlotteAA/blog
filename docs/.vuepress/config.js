@@ -6,28 +6,31 @@ import { webpackBundler } from '@vuepress/bundler-webpack'
 export default defineUserConfig({
   lang: 'en-US',
 
-  title: 'VuePress',
-  description: 'My first VuePress Site',
+  title: '文章云分享',
+  description: '个人博客',
 
   theme: defaultTheme({
-    logo: 'https://vuejs.press/images/hero.png',
+    logo: 'https://jssj666.com/prod-api/profile/avatar/2023/11/21/blob_20231121122254A001.png',
 
     navbar: [
-      '/',
       {
-        text: 'Article',
+        text: '首页',
+        link: '/'
+      },
+      {
+        text: '文章',
         link: '/article/',
       },
       {
-        text: 'Category',
+        text: '分类',
         link: '/category/',
       },
       {
-        text: 'Tag',
+        text: '标签',
         link: '/tag/',
       },
       {
-        text: 'Timeline',
+        text: '时间线',
         link: '/timeline/',
       },
     ],
