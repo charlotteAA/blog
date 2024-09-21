@@ -6,7 +6,7 @@ import { webpackBundler } from '@vuepress/bundler-webpack'
 export default defineUserConfig({
   lang: 'en-US',
 
-  title: '文章云分享',
+  title: '文章云分享1111',
   description: '个人博客',
 
   theme: defaultTheme({
